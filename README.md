@@ -80,14 +80,14 @@ The following example grants EC2 Connect Access to all instances with a tag of `
 
 ### Homebrew/Linuxbrew
 ```
-brew install warpcast/formulae/awsh
+brew install merkle-team/formulae/awsh
 ```
 
 ### Generic *nix
 
 Otherwise, you can run:
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/warpcast/awsh/refs/heads/main/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/merkle-team/awsh/refs/heads/main/install.sh)"
 ```
 
 ## Usage
@@ -129,9 +129,9 @@ At a high level:
    version=1.2.3; git tag -s -a v$version -m v$version
    git push --tags
    ```
-   This will trigger the automated [release workflow](https://github.com/warpcast/awsh/actions/workflows/release.yml).
+   This will trigger the automated [release workflow](https://github.com/merkle-team/awsh/actions/workflows/release.yml).
 
-2. You should then update the [`awsh` Homebrew formula](https://github.com/warpcast/homebrew-formulae/blob/main/awsh.rb) to point at the latest release.
+2. You should then update the [`awsh` Homebrew formula](https://github.com/merkle-team/homebrew-formulae/blob/main/awsh.rb) to point at the latest release.
 
 ## License
 
